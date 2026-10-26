@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">局域网网盘</string>
+    <string name="connection_error">无法打开网页\n\n请连接到能访问 192.168.1.1 的 Wi-Fi，\n并确认网盘服务的 5244 端口已开启。</string>
+    <string name="retry">重新加载</string>
+</resources>
