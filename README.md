@@ -49,3 +49,14 @@ adb shell am instrument -w com.local.player.test/com.local.player.SmokeTest
 自动检查启动地址、JavaScript、网页存储、本地文件访问限制和 HTTP 允许范围；
 在 Android 8.0 及以上还检查进入和退出全屏、重复请求、返回键和系统栏恢复。
 另需在手机上人工检查实际视频播放、旋转手机、登录、网页跳转以及断网后重试。
+
+## 局限
+
+- 服务地址 `192.168.1.1:5244` 硬编码在 `MainActivity.HOME_URL`，换服务器需同时改
+  `network_security_config.xml` 里的域名白名单。
+- 网页容器定位：没有原生上传、下载、多标签或书签。
+- 只适配自家 OpenList 页面，不对其他站点做兼容。
+
+## 许可证
+
+[MIT](LICENSE) © 2026 he222222
